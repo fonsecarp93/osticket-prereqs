@@ -45,15 +45,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img src="https://i.imgur.com/uD8cbnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-2.) Install and Enable INternet Information Services in Windows with CGI, Common HTTP Features, and Internet Information Services Management Console.
+2.) Remote desktop into the Windows 10 VM, install and Enable Internet Information Services in Windows with CGI, Common HTTP Features, and Internet Information Services Management Console.
 
 </p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GTDgsIu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dfbEaUv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 3.) Download and install the PHP Manager for IIS, then the Rewrite Module from the [Installation Files](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6?usp=sharing)
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ikxYfHK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
