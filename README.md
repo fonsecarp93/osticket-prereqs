@@ -17,7 +17,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Internet Information Services (IIS)
-- Installation Files (https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6?usp=sharing)
+- [Installation Files](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6?usp=sharing)
 
 <h2>Operating Systems Used </h2>
 
@@ -43,36 +43,40 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 1.) Create a Windows 10 Virtual Machine (VM) in Microsoft Azure and allow it to create a new Virtual Network (Vnet)
   Note: When creating the VM, create it with 2-4 Virtual CPUs
 
+<img src="https://i.imgur.com/uD8cbnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 2.) Install and Enable INternet Information Services in Windows with CGI, Common HTTP Features, and Internet Information Services Management Console.
 
 </p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-3.) Download and install the PHP Manager for IIS, then the Rewrite Module from the Installation Files (https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6?usp=sharing)
+3.) Download and install the PHP Manager for IIS, then the Rewrite Module from the [Installation Files](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6?usp=sharing)
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-
 4.) Create the directory C:\PHP
-  Download zip file PHP 7.3.8 from the installation files (https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6?usp=sharing) and unzip its contents into C:\PHP
+  Download zip file PHP 7.3.8 from the [installation files](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6?usp=sharing) and unzip its contents into C:\PHP
+
+  <p></p>
   
 5.) Download and install VC_redist.x86.exe, then MySQL5.5.62 from the installation
   NOTE: When installing and setting up MySQL, proceed with the Typical Setup.
 
 </p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 6.) Open Internet Information Services (IIS) as an administrator and register PHP from within it. After doing so, reload IIS.
-Install osTicket v1.15.8 from the installation files (https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6?usp=sharing).
+Install osTicket v1.15.8 from the [installation files](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6?usp=sharing).
     Extract and copy the "upload" folder to c:\inetpub\wwwroot
+    <p>
     Within c:\inetpub\wwwroot, rename "upload" to "osTicket"
 Reload IIS
 
@@ -83,6 +87,8 @@ Reload IIS
       php_intl.dll
       php_opcache.dll
   Refresh the osTicket site and all changes should go into effect.
+
+<p></p>
   
 8.) Rename: ost-config.php
     From:
@@ -94,9 +100,13 @@ Reload IIS
         Disable inheritance: -> Remove All
         New Permissions: -> Everyone -> All
 
+<p></p>
+
 9.) From the installation files (C:\inetpub\wwwroot\osTicket\include\ost-config.php) download and install HeidiSQL.
     Create a new session (root/Password1) and connect to it
     Create a database called "osTicket"
+
+<p></p>
 
 10.) Continue setting up osTicket in the browser
     Name: Helpdesk
